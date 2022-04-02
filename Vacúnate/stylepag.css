@@ -1,0 +1,291 @@
+/*Hoja de estilos*/
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:200;
+}
+
+/* Logo y barra de navegación*/
+
+label.logo{
+    font-family:Oswald;
+    color:#2e69d9;
+    font-size: 30px;   
+    line-height: 60px;  
+    font-weight: bolder;
+    padding: 0 50px;
+}
+
+nav{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 59%, rgba(85,163,207,0.6138830532212884) 100%);
+    height: 60px;  
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 60px;  
+    margin: 0 4px; 
+}
+
+nav ul li a{
+    color:#314670;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+
+/*Headers y párrafos*/
+
+header{
+    font-family: Oswald;
+    font-size: 20px; 
+    margin: 0 -80px; 
+}
+
+p{
+    font-size: 22px;
+    margin-block-start: 20px;
+    margin: 0 120px;
+    color:#a29a8e;
+}
+
+h2{
+    letter-spacing: 3px;
+    word-spacing:6px;
+    margin: 0 200px;
+    font-weight:800;
+    font-size: 50px;
+    color:#47608a;
+    line-height: 110%;
+    text-shadow: 2px 4px 8px rgb(85, 85, 180);
+}
+
+h3 {
+    font-weight: lighter;  
+    margin: 0 120px;  
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+/*a-URL y link, botón 3d*/
+
+a{
+    display: inline-block;
+    padding: 25px 30px;
+    color:rgb(7, 68, 88);
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-decoration: none;
+    overflow: hidden;
+
+    width: fit-content;
+    border-radius: 20px;
+
+    transform: translate(-80px,-1%); 
+}
+
+a.activo, a:hover{
+    transition: 0.5s;    
+    color:white;
+    background-color: rgb(65, 88, 223);
+    box-shadow: 0 0 10px #89bce6, 0 0 10px #89bce6, 0 0 10px #89bce6;
+}
+
+.div{
+    border-left: 3px solid black;
+    height: 420px;
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    top: 80px;
+}
+
+/*Imágenes aquí*/
+
+img {
+    float: right;
+    margin-right: 50px;
+    margin-top: -25px;
+}
+
+.chava{
+    float: left;
+    position: absolute;
+    margin: 90px 0 0 40px;
+    }
+
+.ban{
+    float: left;
+    margin: 0 100px;
+    }
+        
+    .man{ 
+    float: right;
+    }
+
+/* Contenedores y especiales*/
+
+.container{
+width: 200px;
+height: 220px;
+margin: 0 60px auto;
+background: white;
+border-style:ridge;
+border-radius: 20px;
+float: left;
+font-size: 7.5px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:#47608a;
+
+border: 2px solid; 
+border-color: #F6F8FC; 
+
+}
+
+div:hover{
+    box-shadow: 10px 30px 25px #2e6ad931; 
+    transition: .5s; 
+}
+
+.contenedor{
+width: 700px;
+height: 80px;
+margin: 0 60px auto;
+background: white;
+border: whitesmoke;
+border-style:outset;
+border-radius:5px;
+float: right;
+font-size: 7.5px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:#47608a;
+}
+
+#Boton1{
+color: #fff;
+border-radius: 5%;
+height: 25px;
+width: 80px;
+font-weight: 600;
+background: rgb(2,0,36);
+}
+
+.Barrita{
+position: absolute;
+margin-left: 80px;
+
+bottom: -100px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+}
+
+.call{
+    text-align: center;
+    width: 200px;
+    height: 170px;
+    margin: 0 140px auto;
+    margin-top: 20px;
+    background: white;
+    border: whitesmoke;
+    border-style:outset;
+    border-radius:5px;
+    font-size: 9px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#47608a;
+}
+
+.msj{
+    text-align: center;
+    width: 200px;
+    height: 170px;
+    margin: 0 600px auto;
+    margin-top: 20px;
+    background: white;
+    border: whitesmoke;
+    border-style:outset;
+    border-radius:5px;
+    font-size: 9px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#47608a;   
+    transform: translate(-120px,-222%); 
+}
+
+#CallNow{
+color: #fff;
+border-radius: 5%;
+height: 25px;
+width: 80px;
+font-weight: 600;
+background: rgb(2,0,36);
+}
+
+.Final{
+position: absolute;
+display: inline-block;
+}
+
+.banner{
+    width: 1200px;
+    height: 220px;
+    margin: 0 60px auto;
+    background: rgb(190, 200, 245);
+    border-style:ridge;
+    border-radius: 2px;
+    font-size: 7.5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#365488;
+    
+    border: 2px solid; 
+    border-color: #F6F8FC;
+}
+
+.vaccination{
+font-size: 12px;
+color: blue;
+margin: 30px 0 0 90px;
+}
+
+.goal{
+ margin: 10px 0 0 -30px;  
+}
+
+.about{
+margin: 0 0 0 600px;
+word-spacing: 120px;
+transform: translate(0, -160px);
+font-weight: bold;
+color: #314670;
+}
+
+.l1{
+    transform: translate(-1px, -160px);  
+    margin: 0 0 0 600px;
+    color: black;
+}
+
+.l2{
+    margin: 0 0 0 775px; 
+    transform: translate(-1px, -250px);
+    color: black;
+}
+
+.l3{
+    margin: 0 0 0 970px;
+    transform: translate(-1px, -340px);
+    color: black;
+}
