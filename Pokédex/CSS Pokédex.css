@@ -1,0 +1,129 @@
+*{
+    background-attachment: fixed;   
+    position: sticky;
+   }
+   
+   body{
+       background-image:url(./Pokedex\ Final.png);
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: 54%;
+       background-position: center bottom;
+       background-position-y: 110%;
+       position: fixed;
+   }
+   
+   .header{
+   color: yellow;
+   text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+   text-shadow: 20px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+   background: linear-gradient(white, red );
+   }
+   
+   input{
+       background-color: transparent;
+       border: 4px solid #3bb33f;
+       cursor: pointer;
+       font-size: 15px;
+       transform: translate(342px, 440px);
+       text-align: center; 
+       border-radius: 3px;
+       color: black;
+       font-weight: bolder; 
+   }
+   
+   #pokeImg{
+     transform: translate(210px, 170px); 
+     position: fixed; 
+   }
+   
+   button{
+    color: black;
+    font-weight: bolder;
+    border: 2px solid #165e18;
+    transform: translate(205px,478px);
+    position: fixed;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   }
+   
+   .row{
+   transform: translate(800px, 100px);
+   display: flex;
+   line-height: normal;
+   }
+   
+   .rowN{
+   font-size: 18px;
+   font-weight: bold;
+   transform: translate(400px, 98px);
+   display: flex;
+   }
+   
+   .rowID{
+   font-size: 18px;
+   font-weight: bold;
+   transform: translate(400px, 180px);
+   display: flex;
+   }
+   
+   .rowType{
+   font-size: 18px;  
+   transform: translate(750px, 77px);
+   display: flex;
+   }
+   
+   .rowHP{
+   font-size: 18px;  
+   transform: translate(800px, -64px);
+   display: flex;  
+   }
+   
+   .rowATK{
+   font-size: 18px;  
+   transform: translate(800px, -94px);
+   display: flex; 
+   }
+   
+   .rowDF{
+   font-size: 18px;  
+   transform: translate(800px, -124px);
+   display: flex;    
+   }
+   
+   .rowESP{
+   font-size: 18px;  
+   transform: translate(790px, -154px);
+   display: flex;    
+   }
+   
+   .rowDESP{
+   font-size: 18px;  
+   transform: translate(790px, -184px);
+   display: flex;    
+   }
+   
+   .rowV{
+   font-size: 18px;  
+   transform: translate(800px, -214px);
+   display: flex;     
+   }
+   
+   .Estadísticas{
+   font-size: 20px;
+   transform: translate(740px, 76px);
+   }
+   
+   .info{
+   font-size: 20px;
+   transform: translate(740px, -220px);
+   display: flex; 
+   }
+   
+   h2{
+   font-size: 20px;
+   color: yellow;
+   text-shadow: -3px -3px 3px steelblue, 3px -3px 3px steelblue, -3px 3px 3px steelblue, 3px 3px 3px steelblue;
+   transform: translate(760px, -720px); 
+   }

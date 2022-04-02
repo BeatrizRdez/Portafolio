@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro JS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap">
+    <script src="./JS Pokédex.js"></script>
+    <link rel="Stylesheet" href="CSS Pokédex.css">
+</head>
+
+<body>
+
+<!-- Header/Título -->
+
+<div align="center">
+<div class="header">
+    <h1>Pokédex (Launch X)</h1>
+</div>
+</div>
+
+
+<!-- Input/Ingresa el pokemón-->
+    <input type="text" placeholder="Ingresa un pokemón" id="pokeName" name="pokeName">
+    <img src="./b.png" alt="Pokemon" id="pokeImg" width="150px">
+    <button onclick="fetchPokemon()">ENTER</button>
+
+
+<div class="pok">
+ <div class="contenido">
+  <div class="dentro">
+
+<div class="rowN">
+ <p class="resaltar">⭐ Nombre: &nbsp;<p id="nombre"> </p>
+  </div>
+
+<div class="rowType">
+ <p class="resaltar">Tipo: &nbsp;<p id="type"></p>
+  </div>
+
+<div class="rowID">
+<p class="resaltar">Id: &nbsp;<p id="id"></p>
+  </div>
+    
+
+<div class="dentro">
+ <p class="Estadísticas">Stats</p>
+
+    <div class="rowHP">
+     <p>💗 Hp: &nbsp;<p id="statValue0"></p>
+      </div>
+                
+    <div class="rowATK">
+     <p>⚔️Ataque: &nbsp;<p id="statValue1"></p>
+      </div>
+
+    <div class="rowDF">
+     <p>🛡️Defensa: &nbsp;<p id="statValue2"></p>
+      </div>
+
+    <div class="rowESP">
+     <p>⚔️✨Ataque especial: &nbsp;<p id="statValue3"></p>
+      </div>
+
+    <div class="rowDESP">
+     <p>🛡️✨Defensa especial: &nbsp;<p id="statValue4"></p>
+      </div>
+
+    <div class="rowV">
+     <p>⚡Velocidad: &nbsp;<p id="statValue5"></p>
+     </div>
+            
+    <div class="info">
+     <p class="resaltar">Habilidades</p><br>
+      <ul id="habilidades"> 
+    
+    </ul>
+    </div>
+    </div>
+        
+    </div>
+
+    <div class="habilidades">
+        
+    </div>
+
+<h2>Ingresa el nombre de algún pokemón en el <br> recuadro verde, presiona ENTER.</h2>
+    
+</body>
+
+<footer>
+<script src="./JS Pokédex.js"></script>
+</footer>
+
+</html>
